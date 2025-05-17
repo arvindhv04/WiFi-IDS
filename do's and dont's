@@ -1,3 +1,45 @@
-do --> iw dev 
-use this command to run the"gui.py" ( sudo /home/<user name>/Documents/WiScan/.venv/bin/python /home/<user name>/Documents/WiScan/gui.py)
-cl
+DO's :
+
+->iw dev 
+
+->use this command to run the"gui.py" ( sudo /home/<user name>/Documents/WiScan/.venv/bin/python /home/<user name>/Documents/WiScan/gui.py)
+
+->Do run the program with appropriate permissions (e.g., sudo) because packet sniffing requires elevated privileges.
+
+->Do specify the correct wireless interface (e.g., wlp4s0) based on your system’s configuration.
+
+->Do keep your software and dependencies (like Scapy) updated to ensure compatibility and security.
+
+->Do test the system in a controlled environment to avoid false alarms and unintended interference.
+
+->Do monitor logs and reports regularly to detect any suspicious wireless activity early.
+
+->Do handle user input and threading carefully in the GUI to prevent crashes.
+
+->Do consider enhancing detection rules and signatures over time for better accuracy.
+
+->Do ensure compliance with privacy laws and regulations when capturing network packets.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+DONT'S
+
+
+->Don’t run the tool on networks without proper authorization — it may be illegal.
+
+->Don’t ignore error messages related to missing interfaces or permissions.
+
+->Don’t flood the network or perform active attacks during testing; this project is for detection only.
+
+->Don’t expose sensitive captured data without encryption or access controls.
+
+->Don’t leave the tool running unattended on untrusted networks.
+
+->Don’t neglect updating the database of known devices or MAC addresses to reduce false positives.
+
+->Don’t rely solely on this tool for complete network security; use it as part of a broader security strategy.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+THANK YOU! // நன்றி வணக்கம்
